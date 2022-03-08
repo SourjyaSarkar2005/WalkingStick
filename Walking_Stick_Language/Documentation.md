@@ -1,4 +1,4 @@
-### The Walking Stick language
+# The Walking Stick language
 
 This programming language has been made to teach programming concepts to the not so lucky people, ie., those who are physically handicapped.
 
@@ -18,7 +18,7 @@ Usage: can be used to assign a value to a variable. The value can be numerical, 
 
 Since this a language aimed at teaching programming concepts, it is going to have the most vital functions only, like an equivalent of print, input, numeric conversions, mathematical operations, etc. 
 
-# **say function:**
+### **say function:**
 
 syntax: `say "text to speak. it can be variable as well" argument`
 
@@ -27,19 +27,21 @@ Usage: This function is to be used to speak or print a certain string, either co
 **Arguments:**
 1. `times` argument: to repeat a certain string for a number of times.
 
-	syntax: ` say "hello world!" 5 times `
+	syntax: `say "hello world!" 5 times`
 
 2. `+` argument: to combine certain strings or variables to say together.
 
-	*example*: ` a = "world" `
-
-		     ` say "hello" + a 2 times `
+	*example*: 
+```
+		a = "world"
+		say "hello" + a 2 times 
+```
 
 	Other usage: can be used to perform and speak or print 	mathematical operation. Like, `say 5 + 9`
 	*NOTE*: It is different from ` say "5" + "9" `
 
 
-# **Mathematical operators**
+### **Mathematical operators**
 
 The valid mathematical operators are `+`, `-`, `/`, `*`. These are to be used with number and strings (not all operators however are valid with string).
 
@@ -50,7 +52,7 @@ The valid mathematical operators are `+`, `-`, `/`, `*`. These are to be used wi
 	`10 + 5` | Output = `15`
 
 
-# **`number` function**
+### **`number` function**
 
 This function converts a string to number.
 
@@ -59,7 +61,7 @@ syntax: `variable = number "string to change. Can be a variable."`
 NOTE: String must be numeric. Else it will produce error. There is no distinction between float and integer in this language for simplicity.
 
 
-# **`know` function**
+### **`know` function**
 
 This function takes user input.
 
@@ -74,7 +76,7 @@ This will take the user input and store the input in the variable `variable`.
 
 ## **LOOPS**
 
-# **`while` loop:**
+### **`while` loop:**
 
 This will forever execute a command until the condition is fulfilled.
 
@@ -94,7 +96,7 @@ Although indentation is used in this case and is encouraged as well, this is not
 However, the instructions needs to be ordered by using numbers.
 
 
-# **`for` loop:**
+### **`for` loop:**
 
 This loop will iterate over something, or a range of numbers.
 
