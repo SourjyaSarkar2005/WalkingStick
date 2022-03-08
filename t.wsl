@@ -1,0 +1,2 @@
+a = know "Name:"
+say "\nHello," + a
