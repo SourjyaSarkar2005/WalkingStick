@@ -1,9 +1,9 @@
-### Compiler for the Walking Stick Language (WSL)
+# Compiler for the Walking Stick Language (WSL)
 
 
 ## **ver 0.1 (alpha)**
 
-# **ver 0.1 (alpha) targets**
+### **Targets**
 
 - Input file, by taking the `filename`. Perform integrity check (as of now, check extension).
 - Iterate over the file. Separate everything in spaces into a python list. Call it program_list.
